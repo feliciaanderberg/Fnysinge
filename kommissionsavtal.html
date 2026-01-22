@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kommissionsavtal</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="alt-hero">
+    <div class="overlay">
+        <h1>Fnysinge<br>Gårdsbutik</h1>
+    </div>
+</header>
+
+<nav class="global-nav">
+    <ul>
+        <li><a href="index.html">Hem</a></li>
+        <li><a href="kommission.html">Att sälja på kommission</a></li>
+        <li><a href="kommissionsavtal.html" class="active">Att sälja på kommission</a></li>
+    </ul>
+</nav>
+
+<div class="page-background">
+<div class="page-content">
+
+<main>
+
+<section class="commission-intro">
+    <h2>Kommissionsavtal &mdash; Begagnade hästsaker</h2>
+    <p>
+        Fyll i formuläret nedan inför inlämning. Avtalet skrivs ut och signeras på plats i butik.
+    </p>
+</section>
+
+<form name="kommissionsavtal" method="POST" data-netlify="true">
+<input type="hidden" name="form-name" value="kommissionsavtal">
+
+<section class="commission-section">
+    <section class="commission-section">
+    <h3>Butik (Kommissionär)</h3>
+    <p>Fnysinge Gårdsbutik<br>
+    Drivs av: Jennie Smith AB<br>
+    Organisationsnummer: 559140-4933<br><br>
+    Adress:<br>
+    Altuna Fnysinge 1<br>
+    749 71 Fjärdhundra<br><br>
+
+    Telefon: 070-319 18 19<br>
+    E-post: fnysingegardsbutik@gmail.com</p>
+    </section>
+    <h3>Inlämnare (kund)</h3>
+
+    <label>Namn<br>
+        <input type="text" name="namn" required>
+    </label><br>
+
+    <label>Personnummer / Organisationsnummer<br>
+        <input type="text" name="personnummer_orgnr" required>
+    </label><br>
+
+    <label>Telefon<br>
+        <input type="tel" name="telefon" required>
+    </label><br>
+
+    <label>E-post<br>
+        <input type="email" name="epost" required>
+    </label>
+</section>
+
+<section class="commission-section">
+    <h3>Inlämnade varor</h3>
+    <p class="commission-ending">
+        Ange varor, märke/storlek, skick och önskat försäljningspris.
+    </p>
+
+    <textarea name="varor" placeholder="Exempel:
+Ridbyxor Pikeur stl 38 – mycket fint skick – 500 kr
+Huva Full – gott skick – 150 kr"></textarea>
+</section>
+
+<section class="commission-section">
+    <h3>Försäljningsperiod</h3>
+
+    <label>Varorna ligger till försäljning i
+        <input type="text" name="forsaljningsperiod">
+        dagar från inlämningsdatum.
+    </label><br><br>
+
+    <strong>Efter försäljningsperioden:</strong><br><br>
+
+    <label>
+        <input type="radio" name="efter_period" value="Hämtas av inlämnaren">
+        Varorna hämtas av inlämnaren
+    </label><br>
+
+    <label>
+        <input type="radio" name="efter_period" value="Tillfaller butiken">
+        Varor som inte hämtas i tid tillfaller Fnysinge Gårdsbutik
+    </label>
+</section>
+
+<section class="commission-section">
+    <h3>Godkännande</h3>
+
+    <label>
+        <input type="checkbox" name="godkanner_avtal" required>
+        Jag godkänner kommissionsavtalet och butikens villkor
+    </label><br><br>
+
+    <label>
+        <input type="checkbox" name="gdpr" required>
+        Jag samtycker till behandling av mina personuppgifter
+    </label>
+</section>
+
+<section class="commission-section" style="text-align:center;">
+    <button type="submit">Skicka in avtal</button>
+</section>
+
+</form>
+
+</main>
+
+<footer>
+    <p>&copy; 2025 Fnysinge Gårdsbutik</p>
+</footer>
+
+</div>
+</div>
+
+</body>
+</html>
