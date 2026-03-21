@@ -39,9 +39,9 @@ main, header, footer {
 
 header.hero {
     background-size: cover;
-    background-image: url(../images/fnysinge2.jpg);
+    background-image: url(../images/fnysinge-tomt2.jpeg);
     background-position: center;
-    height: 55vh;
+    height: 30vh;
     display: flex;
     justify-content: center;
     position: relative;
@@ -58,11 +58,11 @@ header h1 {
     letter-spacing: 2px;
     margin: 0.5rem;
     text-transform: uppercase;
-    color: #f4e3d2;
+    color: #24211f;
 }
 
 header.hero p {
-    font-size: 1rem;
+    font-size: 1.4rem;
     margin-top: 0.5rem;
     font-style: italic;
 }
@@ -76,13 +76,6 @@ header.alt-hero {
     padding: 1rem 0;
 }
 
-header.hero .overlay {
-    background-color: rgba(225, 200, 158, 0.391); /* ljus beige, semi-transparent */
-    padding: 0 0;
-    border-radius: 12px;
-    display: inline-block;
-height: fit-content;
-}
 
 main {
     max-width: 1200px;
