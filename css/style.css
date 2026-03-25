@@ -458,3 +458,114 @@ textarea {
     background-color: #c1af8e;
 }
 
+
+
+@media (max-width: 550px) {
+
+
+    /* Ta bort onödig padding */
+    main, header, footer {
+        padding: 1rem;
+    }
+
+    .page-background {
+        padding: 0.5rem;
+    }
+
+    .page-content {
+        border-radius: 8px;
+    }
+
+    /* HEADER */
+    header.hero {
+        height: 25vh;
+    }
+
+    header h1 {
+        font-size: 1.4rem;
+    }
+
+    header.hero p {
+        font-size: 1rem;
+    }
+
+    header .overlay {
+        padding: 0 1rem;
+    }
+
+    /* NAVBAR → staplad */
+    .global-nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+        align-items: center;
+    }
+
+    .global-nav a {
+        display: block;
+        width: 90%;
+        text-align: center;
+        font-size: 0.95rem;
+    }
+
+    /* ABOUT FIX (VIKTIGAST) */
+    .about-content {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .about-text {
+        width: 100%;   /* FIXAR DIN 9000px BUG */
+        min-width: unset;
+        padding: 0.5rem;
+    }
+
+    /* TEXT */
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    h3 {
+        font-size: 1.1rem;
+    }
+
+    p, li {
+        font-size: 0.95rem;
+    }
+
+    /* VISIT SECTION */
+    .visit-info {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .visit-info .map iframe {
+        height: 200px;
+    }
+
+    .details {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    /* FORM (kommissionsavtal) */
+    .commission-section {
+        padding: 1rem;
+    }
+
+    textarea {
+        width: 100%;
+    }
+
+    input, textarea, button {
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 1rem;
+    }
+
+    button {
+        padding: 0.8rem;
+    }
+
+    
+
+}
